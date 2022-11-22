@@ -1,6 +1,7 @@
-const dev = {
-    nome: 'Renan',
-    linguagemPreferida: 'JavaScript'
-};
+const numerosPares = [];
 
-console.log(dev.linguagemPreferida);
+for (let i = 0; i < 10; i = i + 2) {
+    numerosPares.push(i);
+}
+
+console.log(numerosPares);
